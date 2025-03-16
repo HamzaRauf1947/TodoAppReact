@@ -229,13 +229,13 @@ function App() {
     
     <div className="space-x-2 flex mt-2 ">
       <button
-        className="button-transition p-2 px-4 rounded-lg w-[50%] bg-green-600 text-white hover:bg-green-700 hover:scale-105"
+        className="button-transition p-2 px-4 rounded-lg w-[50%] cursor-pointer bg-green-600 text-white hover:bg-green-700 hover:scale-105"
         onClick={() => editData(idx)}
       >
         Edit
       </button>
       <button
-        className="button-transition p-2 px-4 rounded-lg w-[50%] bg-red-600 text-white hover:bg-red-700 hover:scale-105"
+        className="button-transition p-2 px-4 rounded-lg w-[50%] cursor-pointer bg-red-600 text-white hover:bg-red-700 hover:scale-105"
         onClick={() => delData(idx)}
       >
         Delete
